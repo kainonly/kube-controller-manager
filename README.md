@@ -15,3 +15,11 @@ docker tag kainonly/kube-controller-manager:v1.13.3 k8s.gcr.io/kube-controller-m
 // or
 docker tag ccr.ccs.tencentyun.com/kainonly/kube-controller-manager:v1.13.3 k8s.gcr.io/kube-controller-manager:v1.13.3
 ```
+
+删除镜像
+
+```shell
+docker rmi kainonly/kube-controller-manager:v1.13.3
+// or
+docker rmi ccr.ccs.tencentyun.com/kainonly/kube-controller-manager:v1.13.3
+```
